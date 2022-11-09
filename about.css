@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height: 200vh;
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  position: relative;
+}
+
+.nav {
+  background-color: rgb(108, 71, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 2px 2px 8px rgb(255, 255, 160);
+  /* position: fixed;s */
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 70px;
+  background-color: rgb(255, 247, 6);
+  padding: 10px;
+}
+
+.button {
+  background-color: rgb(32, 176, 145);
+  color: white;
+  font-size: 16px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.button:hover {
+  transform: scale(1.08);
+}
+.btn {
+  margin-right: 40px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 30px;
+}
+
+ul li a {
+  text-align: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(248, 248, 183);
+  transition: 0.3s;
+}
+
+.a:hover {
+  background-color: rgb(255, 215, 142);
+  color: rgb(33, 33, 33);
+}
+
+h1 {
+  letter-spacing: 2px;
+  color: rgb(244, 54, 86);
+  position: absolute;
+  top: 200px;
+  left: 550px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+h2 {
+  color: rgb(255, 224, 131);
+  position: absolute;
+  top: 300px;
+  left: 530px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+.img {
+  margin: 100px;
+  background-image: url(/pic/pback.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 300px;
+  padding: 20px;
+  height: 63vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 4px rgb(255, 197, 6);
+}
+
+.img p {
+  font-size: 20px;
+  color: rgb(208, 202, 38);
+}
+
+.box1 {
+  display: inline-block;
+  width: 500px;
+  height: 60vh;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 500px;
+  margin-left: 200px;
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 4px rgb(189, 189, 189);
+}
+
+.box2 {
+  display: inline-block;
+  width: 500px;
+  height: 60vh;
+  border: 1px solid black;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 500px;
+  background: #0cebeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 4px rgb(0, 238, 255);
+}
+
+.svg-down {
+  margin-top: 100px;
+}
+
+.svg-down2 {
+  margin-top: 100px;
+}
