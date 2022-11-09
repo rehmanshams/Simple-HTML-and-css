@@ -3,9 +3,9 @@
 
 body {
   font-family: "Baloo Bhai 2", cursive;
-background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/rm380-02.jpg);
-background-repeat: no-repeat;
-background-size:cover ;
+  background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/rm380-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav {
@@ -28,7 +28,6 @@ background-size:cover ;
   padding: 10px;
 }
 
-
 .btn {
   margin-right: 40px;
 }
@@ -49,11 +48,12 @@ ul li a {
   font-size: 25px;
   padding-left: 17px;
   padding-right: 17px;
-
 }
-.man-image{
-margin-left: 240px;
-margin-top: 150px;
+.man-image {
+  margin-left: 240px;
+  margin-top: 150px;
+  width: 100%;
+  max-width: 600px;
 }
 .contact {
   margin-top: 100px;
@@ -62,17 +62,30 @@ margin-top: 150px;
   text-align: center;
   color: rgb(77, 77, 77);
 }
+.sumit-input{
+  border: 1px solid ;
+  width: 100%;
+  max-width: 150px;
+  margin-top: 50px;
+  margin-left: 170px;
+  color: white;
+  height: 23px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 2px;
+  justify-content: center;
+  background:transparent ;
+}
 .logo-image {
   width: 80px;
 }
 .log-box {
-width: 100%;
-height: 40px; 
-display: flex;
-justify-content: center;
-
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
 }
-.box-center{
+.box-center {
   background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg);
   width: 500px;
   margin-top: 220px;
@@ -81,25 +94,24 @@ justify-content: center;
   border-radius: 5px;
 }
 .email-label {
-  color:  white;
+  color: white;
   font-size: 40px;
   margin-left: 20px;
 }
 .pass-label {
-  color:  white;
+  color: white;
   font-size: 40px;
   margin-left: 20px;
 }
 
 .email {
-
   border: none;
   border-radius: 3px;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100px;
   width: 100%;
-  max-width: 300px; 
+  max-width: 300px;
   display: flex;
   align-items: center;
   margin-left: 110px;
@@ -107,16 +119,14 @@ justify-content: center;
   justify-content: center;
 }
 
-
 .pass {
-
   border: none;
   border-radius: 3px;
   color: black;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100px;
   width: 100%;
-  max-width: 300px; 
+  max-width: 300px;
   height: 35px;
 
   display: flex;
