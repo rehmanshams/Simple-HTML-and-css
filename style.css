@@ -89,10 +89,7 @@ ul li a {
   transition: 0.3s;
 }
 
-.a:hover {
-  background-color: #6400b0;
-  transition-delay: 0.1s;
-}
+
 
 .footer-image {
   width: 100%;

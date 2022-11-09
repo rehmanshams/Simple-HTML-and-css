@@ -8,29 +8,16 @@
 }
 
 body {
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  width: 100%;
-  height: 200vh;
+  background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/optical-lens-technology-background-purple-blue-gradient.jpg);
+width: 100%;
+  height: 200%;
+  background-size: cover;
   font-family: "Baloo Bhai 2", cursive;
   color: white;
   position: relative;
 }
 
 .nav {
-  background-color: rgb(108, 71, 145);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,10 +25,11 @@ body {
   height: 60px;
   box-sizing: border-box;
   border: none;
-  box-shadow: 2px 2px 8px rgb(255, 255, 160);
   /* position: fixed;s */
 }
-
+.logo-image {
+  width: 80px;
+}
 .logo {
   margin-left: 10px;
   margin-top: 5px;
@@ -69,9 +57,7 @@ body {
   font-weight: bold;
 }
 
-.button:hover {
-  transform: scale(1.08);
-}
+
 .btn {
   margin-right: 40px;
 }
@@ -97,21 +83,13 @@ ul li a {
   padding-right: 17px;
   padding-top: 3px;
   padding-bottom: 3px;
-  color: rgb(248, 248, 183);
   transition: 0.3s;
 }
 
-.a:hover {
-  background-color: rgb(255, 215, 142);
-  color: rgb(33, 33, 33);
-}
 
 h1 {
   letter-spacing: 2px;
-  color: rgb(244, 54, 86);
   position: absolute;
-  top: 200px;
-  left: 550px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80px;
 }
@@ -126,7 +104,7 @@ h2 {
 }
 
 .img {
-  margin: 100px;
+  
   background-image: url(/pic/pback.jpg);
   background-position: center;
   background-size: cover;
@@ -134,14 +112,20 @@ h2 {
   position: absolute;
   top: 300px;
   padding: 20px;
+  width: 100%;
+  display: flex;
+  margin-left: 220px;
+  justify-content: center;
+  max-width: 1500px;
   height: 63vh;
+  
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 4px rgb(255, 197, 6);
+  box-shadow: 0px 0px 10px 4px white;
 }
 
 .img p {
   font-size: 20px;
-  color: rgb(208, 202, 38);
+  color: white;
 }
 
 .box1 {
@@ -205,4 +189,8 @@ h2 {
 
 .svg-down2 {
   margin-top: 100px;
+}
+.about-us{
+  width: 100%;
+  float: right;
 }
