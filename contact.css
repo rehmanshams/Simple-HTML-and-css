@@ -55,7 +55,7 @@ ul li a {
   width: 100%;
   max-width: 600px;
 }
-.image-man-main{
+.image-man-main {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -68,8 +68,8 @@ ul li a {
   text-align: center;
   color: rgb(77, 77, 77);
 }
-.sumit-input{
-  border: 1px solid ;
+.sumit-input {
+  border: 1px solid;
   width: 100%;
   max-width: 150px;
   margin-top: 50px;
@@ -80,7 +80,7 @@ ul li a {
   cursor: pointer;
   border-radius: 2px;
   justify-content: center;
-  background:transparent ;
+  background: transparent;
 }
 .logo-image {
   width: 80px;
@@ -143,14 +143,116 @@ ul li a {
 @media only screen and (max-width: 1080px) {
   .man-image {
     margin-left: -740px;
-    margin-top: 150px;
+    margin-top: 100px;
     width: 100%;
     max-width: 600px;
+    transition: 0.3s;
   }
-  .image-man-main{
+  ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    transition: 0.3s;
+  }
+  .image-man-main {
     width: 100%;
     display: flex;
     justify-content: center;
+    transition: 0.3s;
   }
-  
+  .box-center {
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg);
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .man-image {
+    margin-left: -740px;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    transition: 0.3s;
+  }
+  .image-man-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  ul li a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    transition: 0.3s;
+  }
+  .box-center {
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg);
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
+@media only screen and (max-width: 1936px) {
+  .man-image {
+    margin-left: -740px;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+    transition: 0.3s;
+  }
+  .image-man-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .box-center {
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg);
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .man-image {
+    margin-left: -740px;
+    transition: 0.3s;
+
+    margin-top: 100px;
+    width: 100%;
+    max-width: 600px;
+  }
+  .image-man-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .box-center {
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/6077505.jpg);
+    width: 500px;
+    margin-top: 150px;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
 }

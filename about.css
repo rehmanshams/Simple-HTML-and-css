@@ -49,14 +49,6 @@ body {
   font-weight: bold;
 }
 
-.btn {
-  margin-right: 40px;
-}
-
-ul {
-  margin-left: 100px;
-}
-
 ul li {
   display: inline-block;
   margin: 30px;
@@ -194,16 +186,34 @@ h2 {
     justify-content: center;
     align-items: center;
     place-content: center;
-    margin-top: 190px;
+    margin-top: 130px;
+    transition: 0.3s;
+
   }
   .main-paragraph {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 4px white;
     width: 100%;
-    max-width: 1000px;
+    max-width: 950px;
     height: 350px;
     font-size: 15px;
     color: white;
+    transition: 0.3s;
+
+  }
+  ul li a {
+    text-align: center;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    transition: 0.3s;
   }
   
 }
@@ -222,7 +232,9 @@ h2 {
     justify-content: center;
     align-items: center;
     place-content: center;
-    margin-top: 190px;
+    margin-top: 150px;
+    transition: 0.3s;
+
   }
   .main-paragraph {
     border-radius: 10px;
@@ -232,8 +244,23 @@ h2 {
     height: 350px;
     font-size: 15px;
     color: white;
+    transition: 0.3s;
+
   }
-  
+  ul li a {
+    text-align: center;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    transition: 0.3s;
+  }
 }
 @media only screen and (min-width: 1536px) {
   body {
@@ -250,8 +277,11 @@ h2 {
     justify-content: center;
     align-items: center;
     place-content: center;
-    margin-top: 190px;
+    margin-top: 370px;
+    transition: 0.3s;
+
   }
+
   .main-paragraph {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 4px white;
@@ -260,6 +290,8 @@ h2 {
     height: 300px;
     font-size: 15px;
     color: white;
+    transition: 0.3s;
+
   }
   
 }
@@ -278,7 +310,9 @@ h2 {
     justify-content: center;
     align-items: center;
     place-content: center;
-    margin-top: 190px;
+    margin-top: 250px;
+    transition: 0.3s;
+
   }
   .main-paragraph {
     border-radius: 10px;
@@ -288,6 +322,8 @@ h2 {
     height: 400px;
     font-size: 20px;
     color: white;
+    transition: 0.3s;
+
   }
   
 }
