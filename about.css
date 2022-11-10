@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/optical-lens-technology-background-purple-blue-gradient.jpg);
   width: 100%;
@@ -101,25 +94,21 @@ h2 {
 }
 
 .img {
-  background-image: url(/pic/pback.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 300px;
-  padding: 20px;
-  width: 100%;
-  display: flex;
-  margin-left: 220px;
-  justify-content: center;
-  max-width: 1500px;
-  height: 500px;
 
+}
+.paragraph-maindev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  margin-top: 190px;
+}
+.main-paragraph {
   border-radius: 10px;
   box-shadow: 0px 0px 10px 4px white;
-}
-
-.img p {
+  width: 100%;
+  max-width: 1600px;
+  height: 450px;
   font-size: 20px;
   color: white;
 }
@@ -189,4 +178,116 @@ h2 {
 .about-us {
   width: 100%;
   float: right;
+}
+@media only screen and (min-width: 1080px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/optical-lens-technology-background-purple-blue-gradient.jpg);
+    background-repeat: no-repeat;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  
+  .paragraph-maindev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    margin-top: 190px;
+  }
+  .main-paragraph {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px white;
+    width: 100%;
+    max-width: 1000px;
+    height: 350px;
+    font-size: 15px;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/optical-lens-technology-background-purple-blue-gradient.jpg);
+    background-repeat: no-repeat;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  
+  .paragraph-maindev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    margin-top: 190px;
+  }
+  .main-paragraph {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px white;
+    width: 100%;
+    max-width: 1100px;
+    height: 350px;
+    font-size: 15px;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width: 1536px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/optical-lens-technology-background-purple-blue-gradient.jpg);
+    background-repeat: no-repeat;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  
+  .paragraph-maindev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    margin-top: 190px;
+  }
+  .main-paragraph {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px white;
+    width: 100%;
+    max-width: 1300px;
+    height: 300px;
+    font-size: 15px;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width: 1918px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://tuk-cdn.s3.amazonaws.com/can-uploader/optical-lens-technology-background-purple-blue-gradient.jpg);
+    background-repeat: no-repeat;
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  
+  .paragraph-maindev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    margin-top: 190px;
+  }
+  .main-paragraph {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px white;
+    width: 100%;
+    max-width: 1500px;
+    height: 400px;
+    font-size: 20px;
+    color: white;
+  }
+  
 }
